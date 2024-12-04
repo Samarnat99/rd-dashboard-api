@@ -1,0 +1,29 @@
+{
+  "rd-perf01":{
+    "endpoints" : {
+      "host" : "https://remotedesk.us/",
+      "hostr" : "https://remotedesk.us/",
+      "host2" : "https://remotedesk.us/",
+      "host3" : "https://remotedesk.us/",
+      "host4" : "https://remotedesk.us/",
+      "authtoken" : "DaEbQhxqwjk3Ib75HC6esSTTQcoFT8EXjcskp5X2"
+    },
+    "unique": true,
+    "features": {
+      "DEMO": {
+        "boolean": true,
+        "modFile": "demo.demo_1",
+        "userClass": "demo",
+        "weight" : 1     
+      }
+    },
+    "wait_time": [0,2],
+    "time_out": 30,
+    "markets": [
+      {
+        "country": "US",
+        "lang": "en"
+      }
+    ]
+  }
+}
